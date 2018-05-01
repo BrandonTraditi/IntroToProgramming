@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+		<h1>A Freshmans Adventure through campus!</h1>
+		<link rel="stylesheet" type="text/css" href="MaristAdventure.css">
+		<script src ="locations.js" type="text/javascript"></script>
+		<script src ="MaristAdventure.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	
+	
+		<div id="text">
+		Welcome! You are a Freshman at Marist College. Choose a direction to 
+		go and explore Marist today!
+		</div>
+		<p id = "Inventory"> You don't have any items right now!</p>
+		<p id = "previousMoves"></p>
+<br>
+		<div><input type="text" id="input">
+		<button id="Go" onclick= "goButton();">Go</button>
+		<p id = error ></p>
+		</div>
+		
+<br>
+	<button onclick= "Go(North);" id = "North">North</button>
+	<button onclick= "Go(South);"id = "South">South</button>
+	<button onclick= "Go(East);"id = "East">East</button>
+	<button onclick= "Go(West);"id ="West">West</button>
+	<button onclick= "help();"id ="Help">Help</button>
+	
+<br>
+	<img src="map.JPG" height="350" width="350">
+<br>
+<a href=”mailto:Brandon.Traditi1@marist.edu”>
+Email me for help
+</a>
+
+</body>
+</html>
+

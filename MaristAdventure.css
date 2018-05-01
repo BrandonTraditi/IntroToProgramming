@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-image: url("Marist.JPG");
+    color: rgb(0,0,0);
+}
+head {
+	margin: 0;
+	padding: 0;
+	width: 75%;
+	text-align: right;
+}
+
+ body {
+    display: inline-block;
+    background: rgba(0,0,0,0.8);
+    border-radius: 10ex;
+    margin-top: .5em;
+    padding: .5em;
+    color: #fff;
+    font-weight: bold;
+ }
+
+
+
+
